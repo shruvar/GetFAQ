@@ -291,38 +291,6 @@
 }
 
 
-/* .listing-carousel-button{
-	position: absolute;
-	top: 50%;
-	width: 80px;
-	height: 50px;
-	line-height: 50px;
-	margin-top: -25px;
-	z-index: 100;
-	cursor: pointer;
-	background: #007aff;
-	box-shadow: 0 9px 26px rgba(58, 87,135,0.45);
-	transition: all 200ms linear;
-	outline: none;
-}
-.listing-carousel-button.listing-carousel-button-next{
-	right: -30px;
-	padding-right: 20px;
-	border-radius: 60px 0 0 60px;
-}
-.listing-carousel-button.listing-carousel-button-prev{
-	left: -30px;
-	padding-left: 20px;
-	border-radius: 0 60px 60px 0;
-}
-.listing-carousel-button.listing-carousel-button-next:hover{
-	right: -15px;
-	background: rgba(6,27,65,0.4);
-}
-.listing-carousel-button.listing-carousel-button-prev:hover{
-	left: -15px;
-	background: rgba(6,27,65,0.4);
-} */
 .testi-item {
 	transition: all .3s ease-in-out;
 	transform: scale(0.9);
@@ -544,7 +512,9 @@ nav .fab {
     cursor: pointer;
     text-decoration: none;
     margin-top: 5%;
+    margin-bottom: 90px; /* Added bottom margin */
 }
+
 
 .hero_btn:hover {
     border: 1px solid #0000006f;
