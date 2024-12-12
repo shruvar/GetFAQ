@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get FAQ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="Sub-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.svg" alt="logo" />
+    
+                </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="nav-links" id="navLinks">
+                <ul>
+                  <li><a href="index.html" class="btn btn btn-secondary ">Home</a></li>
+                  <li>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          LANGUAGES
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="python.html">Python</a>
+                            <a class="dropdown-item" href="c++.html">C++</a>
+                            <a class="dropdown-item" href="java.html">Java</a>
+                            <a class="dropdown-item" href="javascript.html">Data Structure</a>
+                            <a class="dropdown-item" href="OS.html">Operating System</a>
+                            <a class="dropdown-item" href="sql.html">SQL</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li><a href="about copy.html" class="btn btn btn-secondary ">About Us</a></li>
+                    <li><a href="contact.html" class="btn btn btn-secondary ">Contact Us</a></li>
+                    
+          </ul>
+          </div>
+          </div>
+          </nav>
+        <div class="inner_text">
+            <h1>Operating System</h1>
+        </div>
+    </section>
+
+    <!-- course start -->
+
+    <section class="course">
+        <h1>QUESTIONS BASED ON OPERATING SYSTEM</h1>
+
+      <div class= "faq"> 
+        <div class = "question">
+           <h4>How does dynamic loading aid in better memory space utilization?</h4>
+
+           <svg width="15" height="10" viewbox = "0 0 42 25">
+               <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+           </svg>
+        </div>
+        <div class = "answer">
+            <p>
+                With dynamic loading, a routine is not loaded until it is called. This method is especially useful when large amounts of code are needed in order to handle infrequently occurring cases such as error routines. 
+            </p>
+        </div>
+      </div>
+      
+        
+
+        <div class= "faq"> 
+            <div class = "question">
+               <h4>What are overlays?</h4>
+    
+               <svg width="15" height="10" viewbox = "0 0 42 25">
+                   <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+               </svg>
+            </div>
+            <div class = "answer">
+                <p>
+                    The concept of overlays is that whenever a process is running it will not use the complete program at the same time, it will use only some part of it. Then overlays concept says that whatever part you required, you load it and once the part is done, then you just unload it, which means just pull it back and get the new part you required and run it. Formally, “The process of transferring a block of program code or other data into internal memory, replacing what is already stored”. 
+                </p>
+            </div>
+          </div>
+            
+            <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is fragmentation?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Processes are stored and remove from memory, which makes free memory space, which is too little to even consider utilizing by different processes.  Suppose, that process is not ready to dispense to memory blocks since its little size and memory hinder consistently stay unused is called fragmentation. This kind of issue occurs during a dynamic memory allotment framework when free blocks are small, so it can’t satisfy any request. 
+                    </p>
+                </div>
+              </div>
+
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>When does thrashing occur?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Thrashing occurs when processes on the system frequently access pages not available memory. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is the best page size when designing an operating system?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        LThe best paging size varies from system to system, so there is no single best when it comes to page size. There are different factors to consider in order to come up with a suitable page size, such as page table, paging time, and its effect on the overall efficiency of the operating system. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is multitasking?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Multitasking is a logical extension of a multiprogramming system that supports multiple programs to run concurrently. In multitasking, more than one task is executed at the same time. In this technique, the multiple tasks, also known as processes, share common processing resources such as a CPU. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is caching?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        The cache is a smaller and faster memory that stores copies of the data from frequently used main memory locations. There are various different independent caches in a CPU, which store instructions and data. Cache memory is used to reduce the average time to access data from the Main memory.  
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is spooling?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Spooling refers to simultaneous peripheral operations online, spooling refers to putting jobs in a buffer, a special area in memory, or on a disk where a device can access them when it is ready. Spooling is useful because devices access data at different rates.  
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is the functionality of an Assembler?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        The Assembler is used to translate the program written in Assembly language into machine code. The source program is an input of an assembler that contains assembly language instructions. The output generated by the assembler is the object code or machine code understandable by the computer. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What are interrupts?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        The interrupts are a signal emitted by hardware or software when a process or an event needs immediate attention. It alerts the processor to a high-priority process requiring interruption of the current working process. In I/O devices one of the bus control lines is dedicated for this purpose and is called the Interrupt Service Routine (ISR).
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is GUI?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        GUI is short for Graphical User Interface. It provides users with an interface wherein actions can be performed by interacting with icons and graphical symbols.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is preemptive multitasking?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Preemptive multitasking is a type of multitasking that allows computer programs to share operating systems (OS) and underlying hardware resources. It divides the overall operating and computing time between processes, and the switching of resources between different processes occurs through predefined criteria. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is a pipe and when is it used?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        A Pipe is a technique used for inter-process communication. A pipe is a mechanism by which the output of one process is directed into the input of another process. Thus it provides a one-way flow of data between two related processes. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What are the advantages of semaphores?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        	They are machine-independent.
+                        <br>•	Easy to implement.
+                        <br>•	Correctness is easy to determine.
+                        <br>• Can have many different critical sections with different semaphores.
+                        <br>•	Semaphores acquire many resources simultaneously.
+                        <br>•	No waste of resources due to busy waiting.
+ 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is a bootstrap program in the OS?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Bootstrapping is the process of loading a set of instructions when a computer is first turned on or booted. During the startup process, diagnostic tests are performed, such as the power-on self-test (POST), that set or check configurations for devices and implement routine testing for the connection of  peripherals, hardware, and external memory devices. The bootloader or bootstrap program is then loaded to initialize the OS.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is IPC?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Inter-process communication (IPC) is a mechanism that allows processes to communicate with each other and synchronize their actions. The communication between these processes can be seen as a method of co-operation between them.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Describe the objective of multiprogramming.</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        The main objective of multiprogramming is to have a process running at all times. With this design, CPU utilization is said to be maximized. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is SMP?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        SMP is a short form of Symmetric Multi-Processing. It is the most common type of multiple-processor systems. In this system, each processor runs an identical copy of the operating system, and these copies communicate with one another as needed. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is asymmetric clustering?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        In asymmetric clustering, a machine is in a state known as hot standby mode where it does nothing but to monitor the active server. That machine takes the active server’s role should the server fails.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is RR scheduling algorithm?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        RR (round-robin) scheduling algorithm is primarily aimed for time-sharing systems. A circular queue is a setup in such a way that the CPU scheduler goes around that queue, allocating CPU to each process for a time interval of up to around 10 to 100 milliseconds.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What are overlays?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        The concept of overlays is that whenever a process is running it will not use the complete program at the same time, it will use only some part of it. Then overlays concept says that whatever part you required, you load it and once the part is done, then you just unload it, which means just pull it back and get the new part you required and run it. Formally, “The process of transferring a block of program code or other data into internal memory, replacing what is already stored”.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is the Direct Access Method?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        The direct Access method is based on a disk model of a file, such that it is viewed as a numbered sequence of blocks or records. It allows arbitrary blocks to be read or written. Direct access is advantageous when accessing large amounts of information. Direct memory access (DMA) is a method that allows an input/output (I/O) device to send or receive data directly to or from the main memory, bypassing the CPU to speed up memory operations. The process is managed by a chip known as a DMA controller (DMAC).
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is fragmentation?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Processes are stored and remove from memory, which makes free memory space, which is too little to even consider utilizing by different processes.  Suppose, that process is not ready to dispense to memory blocks since its little size and memory hinder consistently stay unused is called fragmentation. This kind of issue occurs during a dynamic memory allotment framework when free blocks are small, so it can’t satisfy any request.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4> When does thrashing occur?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Thrashing occurs when processes on the system frequently access pages not available memory.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is the best page size when designing an operating system?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        The best paging size varies from system to system, so there is no single best when it comes to page size. There are different factors to consider in order to come up with a suitable page size, such as page table, paging time, and its effect on the overall efficiency of the operating system.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is a Scheduling Algorithm? Name different types of scheduling algorithms.</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        A scheduling algorithm is a process that is used to improve efficiency by utilizing maximum CPU and providing minimum waiting time to tasks. It simply deals with the problem of deciding which of outstanding requests is to be allocated resources. Its main aim is to reduce resource starvation and to ensure fairness amongst parties that are utilizing the resources. In simple words, it is used to allocate resources among various competing tasks. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is virtual memory?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        It is a memory management technique feature of OS that creates the illusion to users of a very large (main) memory. It is simply space where a greater number of programs can be stored by themselves in the form of pages. It enables us to increase the use of physical memory by using a disk and also allows us to have memory protection. It can be managed in two common ways by OS i.e., paging and segmentation. It acts as temporary storage that can be used along with RAM for computer processes. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What do you mean by overlays in OS?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Overlays is basically a programming method that divides processes into pieces so that instructions that are important and need can be saved in memory. It does not need any type of support from the OS. It can run programs that are bigger in size than physical memory by only keeping only important data and instructions that can be needed at any given time.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What do you mean by FCFS?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        FCFS (First Come First Serve) is a type of OS scheduling algorithm that executes processes in the same order in which processes arrive. In simple words, the process that arrives first will be executed first. It is non-preemptive in nature. FCFS scheduling may cause the problem of starvation if the burst time of the first process is the longest among all the jobs. Burst time here means the time that is required in milliseconds by the process for its execution. It is also considered the easiest and simplest OS scheduling algorithm as compared to others. Implementation of FCFS is generally managed with help of the FIFO (First In First Out) queue.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is a pipe and when is it used?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        A Pipe is a technique used for inter-process communication. A pipe is a mechanism by which the output of one process is directed into the input of another process. Thus it provides a one-way flow of data between two related processes.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is a socket?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        A socket is used to make connection between two applications. Endpoints of the connection are called socket.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is the zombie process?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        A process that has finished the execution but still has an entry in the process table to report to its parent process is known as a zombie process. A child process always first becomes a zombie before being removed from the process table. The parent process reads the exit status of the child process which reaps off the child process entry from the process table.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What are orphan processes?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        A process whose parent process no more exists i.e. either finished or terminated without waiting for its child process to terminate is called an orphan process.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is Context Switching?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Switching of CPU to another process means saving the state of the old process and loading the saved state for the new process. In Context Switching the process is stored in the Process Control Block to serve the new process, so that the old process can be resumed from the same part it was left.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is PCB?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        The process control block (PCB) is a block that is used to track the process’s execution status. A process control block (PCB) contains information about the process, i.e. registers, quantum, priority, etc. The process table is an array of PCBs, that means logically contains a PCB for all of the current processes in the system.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>When is a system in a safe state?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        The set of dispatchable processes is in a safe state if there exists at least one temporal order in which all processes can be run to completion without resulting in a deadlock.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is Cycle Stealing?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Cycle stealing is a method of accessing computer memory (RAM) or bus without interfering with the   CPU. It is similar to direct memory access (DMA) for allowing I/O controllers to read or write RAM without CPU intervention.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is a Trap and Trapdoor?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        A trap is a software interrupt, usually the result of an error condition, and is also a non-maskable interrupt and has the highest priority Trapdoor is a secret undocumented entry point into a program used to grant access without normal methods of access authentication. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Define the term dispatch latency?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        A Dispatch latency can be described as the amount of time it takes for a system to respond to a request for a process to begin operation. With a scheduler written specifically to honor application priorities, real-time applications can be developed with a bounded dispatch latency.
+                    </p>
+                </div>
+              </div>
+              
+                
+        
+    </section>
+
+    <!-- course end -->
+
+    <!-- best course start -->
+
+    <section class="facilities">
+        <h1>Top 5 Things to Remember in an Interview</h1>
+        <p>You worked hard on your resume and job application, and now you are called in for an in-person job interview. You are one step closer to your dream job.
+
+            It’s time to understand how to succeed in the job interview, so that you can actually land the job. Here are the most important things you have to remember.</p>
+        <div class="row">
+            <div class="faq">
+                    <h1>1. Dress appropriately</h1>
+
+                    <h6>Plan out an outfit that fits the culture of the company you are applying for. If the company does not have a dress code, it’s a good idea to wear business casual.
+                        
+                        Leave your shorts and tank top at home, and put on a shirt and a pair of long pants. It’s always better to be overdressed than under. Try on your outfit before the interview to make sure that it fits and looks smart.
+                    </h6>   
+                    <h1>2. Arrive on time </h1>
+                    <h6>Don’t ever arrive at a job interview late! It’s best to arrive 15 minutes before the scheduled time in case you have to fill in some paperwork. This also allows you to settle down and check out the dynamics of the office.
+                        
+                        If you are not familiar with the area in which the company is located, do a test run a week or two before to make sure that you won’t get lost. If you are driving, make a note on where you can park your car.
+                    </h6>    
+                    <h1>3. Mind your manner</h1>
+                    <h6>Be polite and greet everyone you meet, including people you meet in the elevator. When you enter the interview, offer the interviewer a warm greeting. These first few seconds can make or break your interview. At the end of the interview, don’t forget to thank the interviewer for giving you the opportunity for the meeting. When you leave the company, say goodbye to the receptionist.
+                    </h6>    
+                    <h1>4. Pay attention to your body language<h1>
+                    <h6>    Poor body language, such as playing with a pen, chewing gum, slouching, and even brushing back hair, can be a distraction. If you notice you have a tendency to do any of these, train yourself to avoid these bad habits. You can replace them with positive body language that include nodding, eye contact, smiling, and solid posture.
+                    </h6>    
+                    <h1>5. Ask insightful questions</h1>
+                    <h6>Most interviewers end an interview by allowing the candidate to ask questions. Regardless of how well you know the company and how thorough the interviewer in telling you about the job, you must ask a few questions. The more insightful your questions are, the more you will impress your interviewer.
+                        
+                        What do you do in an interview? Let us know in the comments below!
+                    </h6>
+            </div>
+        </div>
+        
+
+    <!-- Footer start -->
+    <section class="footer">
+        <hr>
+        <a href="about copy.html" class="foot_btn">ABOUT US</a>
+        <a href="contact.html" class="foot_btn">CONTACT US</a>
+
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fas fa-heart"></i> by Shruti </p>
+        <p>Copyright © 2022 <a href="index.html">Get FAQ</a>. All Rights Reserved.</p>
+    </section>
+    <!-- Footer end -->
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

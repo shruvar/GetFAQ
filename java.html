@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get FAQ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="Sub-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.svg" alt="logo" />
+    
+                </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="nav-links" id="navLinks">
+                <ul>
+                  <li><a href="index.html" class="btn btn btn-secondary ">Home</a></li>
+                  <li>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          LANGUAGES
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="python.html">Python</a>
+                            <a class="dropdown-item" href="c++.html">C++</a>
+                            <a class="dropdown-item" href="java.html">Java</a>
+                            <a class="dropdown-item" href="javascript.html">Data Structure</a>
+                            <a class="dropdown-item" href="OS.html">Operating System</a>
+                            <a class="dropdown-item" href="sql.html">SQL</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li><a href="about copy.html" class="btn btn btn-secondary ">About Us</a></li>
+                    <li><a href="contact.html" class="btn btn btn-secondary ">Contact Us</a></li>
+                    
+          </ul>
+          </div>
+          </div>
+          </nav>
+        <div class="inner_text">
+            <h1>Java</h1>
+        </div>
+    </section>
+
+    <!-- course start -->
+
+    <section class="course">
+        <h1>QUESTIONS BASED ON JAVA LANGUAGE</h1>
+
+      <div class= "faq"> 
+        <div class = "question">
+           <h4>What do you understand by Java virtual machine?</h4>
+
+           <svg width="15" height="10" viewbox = "0 0 42 25">
+               <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+           </svg>
+        </div>
+        <div class = "answer">
+            <p>
+                Java Virtual Machine is a virtual machine that enables the computer to run the Java program. JVM acts like a run-time engine which calls the main method present in the Java code. JVM is the specification which must be implemented in the computer system. The Java code is compiled by JVM to be a Bytecode which is machine independent and close to the native code. 
+            </p>
+        </div>
+      </div>
+        
+
+        <div class= "faq"> 
+            <div class = "question">
+               <h4>What is JIT compiler?</h4>
+    
+               <svg width="15" height="10" viewbox = "0 0 42 25">
+                   <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+               </svg>
+            </div>
+            <div class = "answer">
+                <p>
+                    Just-In-Time(JIT)compiler: It is used to improve the performance. JIT compiles parts of the bytecode that have similar functionality at the same time, and hence reduces the amount of time needed for compilation. Here the term “compiler” refers to a translator from the instruction set of a Java virtual machine (JVM) to the instruction set of a specific CPU. 
+                </p>
+            </div>
+          </div>
+            
+            <div class= "faq"> 
+                <div class = "question">
+                   <h4>What gives Java its 'Write once and run anywhere' nature?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                       Java compiler converts the Java programs into the class file (Byte Code) which is the intermediate language between source code and machine code. This bytecode is not platform specific and can be executed on any computer. 
+                    </p>
+                </div>
+              </div>
+
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What will be the initial value of an object reference which is defined as an instance variable?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        All object references are initialized to null in Java.  
+                    </p>
+                </div>
+              </div>
+
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Can we make the abstract methods static in Java?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        In Java, if we make the abstract methods static, It will become the part of the class, and we can directly call it which is unnecessary. Calling an undefined method is completely useless therefore it is not allowed.   
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Why can we not override static method?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        It is because the static method is the part of the class, and it is bound with class whereas instance method is bound with the object, and static gets memory in class area, and instance gets memory in a heap.  
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What are Composition and Aggregation? State the difference.</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Composition, and Aggregation help to build (Has - A - Relationship) between classes and objects. But both are not the same in the end. Let’s understand with the help of an example.  
+
+Consider the University as a class that has some departments in it. So the university will be the container object. And departments in it will contain objects. Now in this case, if the container object destroys then the contained objects will also get destroyed automatically.  So here we can say that there is a strong association between the objects. So this Strong Association is called Composition. 
+
+Now consider one more example. Suppose we have a class department and there are several professors' objects there in the department. Now if the department class is destroyed then the professor's object will become free to bind with other objects. Because container objects (Department) only hold the references of contained objects (Professor’s). So here is the weak association between the objects. And this weak association is called Aggregation.  
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Assume a thread has a lock on it, calling the sleep() method on that thread will release the lock? </h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        A thread that has a lock won't be released even after it calls sleep(). Despite the thread sleeping for a specified period of time, the lock will not be released.  
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is the importance of reflection in Java?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Reflection is a runtime API for inspecting and changing the behavior of methods, classes, and interfaces. Java Reflection is a powerful tool that can be really beneficial. Java Reflection allows you to analyze classes, interfaces, fields, and methods during runtime without knowing what they are called at compile time. Reflection can also be used to create new objects, call methods, and get/set field values. External, user-defined classes can be used by creating instances of extensibility objects with their fully-qualified names. Debuggers can also use reflection to examine private members of classes.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Explain the Priority Queue. </h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+            Priority Queue:  Linked list class has been enhanced to implement the queue interface. Queues can be handled with a linked list. The purpose of a queue is “Priority-in, Priority-out”. 
+
+Hence elements are ordered either naturally or according to the comparator. The elements ordering represents their relative priority.    
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>How to not allow serialization of attributes of a class in Java?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>The NonSerialized attribute can be used to prevent member variables from being serialized.
+                    You should also make an object that potentially contains security-sensitive data nonserializable if possible. Apply the NonSerialized attribute to certain fields that store sensitive data if the object must be serialized. If you don’t exclude these fields from serialisation, the data they store will be visible to any programmes with serialization permission.
+                     </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>How is the creation of a String using new() different from that of a literal?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>When we create a string using new(), a new object is created. Whereas, if we create a string using the string literal syntax, it may return an already existing object with the same name.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Why pointers are not used in Java?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>Java doesn’t use pointers because they are unsafe and increases the complexity of the program. Since, Java is known for its simplicity of code, adding the concept of pointers will be contradicting. Moreover, since JVM is responsible for implicit memory allocation, thus in order to avoid direct access to memory by the user,  pointers are discouraged in Java.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is JIT compiler in Java?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>JIT stands for Just-In-Time compiler in Java. It is a program that helps in converting the Java bytecode into instructions that are sent directly to the processor. By default, the JIT compiler is enabled in Java and is activated whenever a Java method is invoked. The JIT compiler then compiles the bytecode of the invoked method into native machine code, compiling it “just in time” to execute. Once the method has been compiled, the JVM summons the compiled code of that method directly rather than interpreting it. This is why it is often responsible for the performance optimization of Java applications at the run time.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is Java String Pool?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>Java String pool refers to a collection of Strings which are stored in heap memory. In this, whenever a new object is created, String pool first checks whether the object is already present in the pool or not. If it is present, then the same reference is returned to the variable else new object will be created in the String pool and the respective reference will be returned.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is an infinite loop in Java? Explain with an example.</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>An infinite loop is an instruction sequence in Java that loops endlessly when a functional exit isn’t met. This type of loop can be the result of a programming error or may also be a deliberate action based on the application behavior. An infinite loop will terminate automatically once the application exits.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Explain the term “Double Brace Initialisation” in Java?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>Double Brace Initialization is a Java term that refers to the combination of two independent processes. 
+                        <br>There are two braces used in this. 
+                        <br>• The first brace creates an anonymous inner class. 
+                        <br>• The second brace is an initialization block. When these both are used together, it is known as Double Brace Initialisation. The inner class has a reference to the enclosing outer class, genertally using the ‘this’ pointer. It is used to do both creation and initialization in a single statement. It is generally used to initialize collections. It reduces the code and also makes it more readable.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Why Java Strings are immutable in nature?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>In Java, string objects are immutable in nature which simply means once the String object is created its state cannot be modified. Whenever you try to update the value of that object instead of updating the values of that particular object, Java creates a new string object. Java String objects are immutable as String objects are generally cached in the String pool. Since String literals are usually shared between multiple clients, action from one client might affect the rest. It enhances security, caching, synchronization, and performance of the application. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is a Map in Java?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>In Java, Map is an interface of Util package which maps unique keys to values. The Map interface is not a subset of the main Collection interface and thus it behaves little different from the other collection types. Below are a few of the characteristics of Map interface: 
+                       <br> •	Map doesn’t contain duplicate keys.
+                        <br>•	Each key can map at max one value.
+                        
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is collection class in Java? List down its methods and interfaces.</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>In Java, the collection is a framework that acts as an architecture for storing and manipulating a group of objects. Using Collections you can perform various tasks like searching, sorting, insertion, manipulation, deletion, etc. Java collection framework includes the following:
+                        <br>•	Interfaces
+                        <br>•	Classes
+                        <br>•	Methods
+                        
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Can a constructor return a value?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>Yes, A constructor can return a value. It replaces the class's current instance implicitly; you cannot make a constructor return a value explicitly.
+                   </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Explain ‘super’ keyword in Java.</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>    The term "super" is a particular keyword designated as a reference keyword. The "super" keyword refers to the immediate parent class object.
+                                        </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Explain Method Overloading in Java.</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>The process of creating multiple method signatures using one method name is called Method Overloading in Java. Two ways to achieve method overloading are:
+
+                        Varying the number of arguments
+                        Changing the return type of the Method 
+                                        </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4> Define Late Binding.</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p> Binding is a process of unifying the method call with the method's code segment. Late binding happens when the method's code segment is unknown until it is called during the runtime. 
+                                           </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Define Dynamic Method Dispatch.</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>     The Dynamic method dispatch is a process where the method call is executed during the runtime. A reference variable is used to call the super-class. This process is also known as Run-Time Polymorphism. 
+                   </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Why is the delete function faster in the linked list than an array?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Delete Function is faster in linked lists as the user needs to make a minor update to the pointer value so that the node can point to the next successor in the list.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Why are generics used in Java Programming?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Compile-time type safety is provided by using generics. Compile-time type safety allows users to catch unnecessary invalid types at compile time. Generic methods and classes help programmers specify a single method declaration, a set of related methods, or related types with an available class declaration. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is the Daemon Thread?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        The Daemon thread can be defined as a thread with the least priority. This Daemon thread is designed to run in the background during the Garbage Collection in Java.
+
+                        The setDaemon() method creates a Daemon thread in Java.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Why is Java is Dynamic?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Java is designed to adapt to an evolving environment. Java programs include a large amount of runtime information that is used to resolve access to objects in real-time.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Can you run a code before executing the main method?</h4>
+                   
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Yes, we can execute any code, even before the main method. We will be using a static block of code when creating the objects at the class's load time. Any statements within this static block of code will get executed at once while loading the class, even before creating objects in the main method.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>How many times is the finalize method called?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        The finalize method is called the Garbage collector. For every object, the Garbage Collector calls the finalize() method just for one time.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is JDBC?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        JDBC is an abbreviation for Java Database Connector.
+
+JDBC is an abstraction layer used to establish connectivity between an existing database and a Java application.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4> Will the program run if we write static public void main?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Yes, the program will successfully execute if written so. Because, in Java, there is no specific rule for the order of specifiers.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is the default value stored in Local Variables?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Neither the Local Variables nor any primitives and Object references have any default value stored in them. 
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is an infinite loop in Java? Explain with an example.</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>An infinite loop is an instruction sequence in Java that loops endlessly when a functional exit isn’t met. This type of loop can be the result of a programming error or may also be a deliberate action based on the application behavior. An infinite loop will terminate automatically once the application exits.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What are the differences between Heap and Stack Memory in Java?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Stack is generally used to store the order of method execution and local variables. In contrast, Heap memory is used to store the objects. After storing, they use dynamic memory allocation and deallocation.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is JCA in Java?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        Java Cryptography Architecture gives a platform and provides architecture and application programming interfaces that enable decryption and encryption. 
+
+Developers use Java Cryptography Architecture to combine the application with the security applications. Java Cryptography Architecture helps in implementing third party security rules and regulations. 
+
+Java Cryptography Architecture uses the hash table, encryption message digest, etc. to implement the security.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Explain JPA in Java.
+                </h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        The Java Persistence API enables us to create the persistence layer for desktop and web applications. Java Persistence deals in the following:
+
+                    <br> • Java Persistence API
+                    <br> • Query Language
+                    <br> • Java Persistence Criteria API
+                    <br> • Object Mapping Metadata
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>Briefly explain the term Spring Framework.</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>Spring is essentially defined as an application framework and inversion of control containers for Java. The spring framework creates enterprise applications in Java. Especially useful to keep in mind that the spring framework's central features are essentially conducive to any Java application.
+                    </p>
+                </div>
+              </div>
+              <div class= "faq"> 
+                <div class = "question">
+                   <h4>What is Session Management in Java?</h4>
+        
+                   <svg width="15" height="10" viewbox = "0 0 42 25">
+                       <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                   </svg>
+                </div>
+                <div class = "answer">
+                    <p>
+                        A session is essentially defined as the random conversation's dynamic state between the client and the server. The virtual communication channel includes a string of responses and requests from both sides. The popular way of implementing session management is establishing a session ID in the client's communicative discourse and the server.
+                    </p>
+                </div>
+              </div>
+
+        
+    </section>
+
+
+    <!-- course end -->
+
+    <!-- best course start -->
+
+    <section class="facilities">
+        <h1>Top 5 Things to Remember in an Interview</h1>
+        <p>You worked hard on your resume and job application, and now you are called in for an in-person job interview. You are one step closer to your dream job.
+
+            It’s time to understand how to succeed in the job interview, so that you can actually land the job. Here are the most important things you have to remember.</p>
+        <div class="row">
+            <div class="faq">
+                    <h1>1. Dress appropriately</h1>
+
+                    <h6>Plan out an outfit that fits the culture of the company you are applying for. If the company does not have a dress code, it’s a good idea to wear business casual.
+                        
+                        Leave your shorts and tank top at home, and put on a shirt and a pair of long pants. It’s always better to be overdressed than under. Try on your outfit before the interview to make sure that it fits and looks smart.
+                    </h6>   
+                    <h1>2. Arrive on time </h1>
+                    <h6>Don’t ever arrive at a job interview late! It’s best to arrive 15 minutes before the scheduled time in case you have to fill in some paperwork. This also allows you to settle down and check out the dynamics of the office.
+                        
+                        If you are not familiar with the area in which the company is located, do a test run a week or two before to make sure that you won’t get lost. If you are driving, make a note on where you can park your car.
+                    </h6>    
+                    <h1>3. Mind your manner</h1>
+                    <h6>Be polite and greet everyone you meet, including people you meet in the elevator. When you enter the interview, offer the interviewer a warm greeting. These first few seconds can make or break your interview. At the end of the interview, don’t forget to thank the interviewer for giving you the opportunity for the meeting. When you leave the company, say goodbye to the receptionist.
+                    </h6>    
+                    <h1>4. Pay attention to your body language<h1>
+                    <h6>    Poor body language, such as playing with a pen, chewing gum, slouching, and even brushing back hair, can be a distraction. If you notice you have a tendency to do any of these, train yourself to avoid these bad habits. You can replace them with positive body language that include nodding, eye contact, smiling, and solid posture.
+                    </h6>    
+                    <h1>5. Ask insightful questions</h1>
+                    <h6>Most interviewers end an interview by allowing the candidate to ask questions. Regardless of how well you know the company and how thorough the interviewer in telling you about the job, you must ask a few questions. The more insightful your questions are, the more you will impress your interviewer.
+                        
+                        What do you do in an interview? Let us know in the comments below!
+                    </h6>
+            </div>
+        </div>
+    </section>  
+
+    <!-- Footer start -->
+    <section class="footer">
+        <hr>
+        <a href="about copy.html" class="foot_btn">ABOUT US</a>
+        <a href="contact.html" class="foot_btn">CONTACT US</a>
+
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fas fa-heart"></i> by Shruti </p>
+        <p>Copyright © 2022 <a href="index.html">Get FAQ</a>. All Rights Reserved.</p>
+    </section>
+    <!-- Footer end -->
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
